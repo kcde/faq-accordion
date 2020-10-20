@@ -85,6 +85,10 @@ img {
     color: var(--desat-blue);
 }
 
+i {
+    transition: transform 350ms ease;
+}
+
 .question i {
     color: var(--soft-red);
 }
@@ -98,6 +102,10 @@ img {
 
 .show .question {
     font-weight: 700;
+}
+
+.show i {
+    transform: rotate(180deg);
 }
 
 .answer {
